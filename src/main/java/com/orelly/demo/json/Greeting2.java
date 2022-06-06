@@ -2,15 +2,15 @@ package com.orelly.demo.json;
 
 import org.springframework.stereotype.Component;
 
-@Component
-public class Greeting {
+
+public class Greeting2 {
 
     private String message;
 
-    public Greeting() {
+    public Greeting2() {
     }
 
-    public Greeting(String message) {
+    public Greeting2(String message) {
         this.message = message;
     }
     public String getMessage() {
